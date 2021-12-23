@@ -13,7 +13,7 @@ export default function AddTodo({ submitHandler }) {
             setText(val)      
         }
         else {
-            alert('Maksimum liste eleman sayısına ulaştınız...')     
+            alert('max: 10 texts added')     
         }
     }
 
